@@ -32,5 +32,6 @@ let areaofTriangle = forTriangleWith(base: e, height : f)
 print("Area of triangle is: \(areaofTriangle)")
 
 // Calculate the area of a circle
-//let r = 5.0
-
+let r = 5.0
+let areaofCircle = forCircleWith(radius: r)
+print("Area of Circle is: \(areaofCircle)")

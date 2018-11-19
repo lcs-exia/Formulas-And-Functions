@@ -54,10 +54,10 @@ func forParallelogramWith(base b : Double, height h : Double) -> Double {
     let result = b * h
     return result
 }
-/*func forCircleWith(radius r : Double) -> Double {
-    let result = pi * r * r
+func forCircleWith(radius r : Double) -> Double {
+    let result = Double.pi * r * r
     return result
-} */
+}
 func forTriangleWith(base b : Double, height h : Double) -> Double {
     let result = b * h / 2
     return result
